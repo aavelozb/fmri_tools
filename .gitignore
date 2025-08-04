@@ -3,8 +3,10 @@ __pycache__/
 *.pyo
 *.pyd
 .build/
+build/
 dist/
 .eggs/
 *.egg-info/
 .env
 .venv
+.DS_Store
