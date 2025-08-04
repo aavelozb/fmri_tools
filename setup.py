@@ -8,8 +8,8 @@ setup(
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "balloon-netsim = fmri_tools.balloon_netsim_cli:main",
-            # "fmri-preprocess = fmri_tools.preprocess_cli:main",
+            "balloon-netsim = fmri_tools.cli_balloon_netsim:main",
+            "rs-preprocessing = fmri_tools.cli_preprocessing:main",
             # "fmri-analyze = fmri_tools.analyze_cli:main",
         ],
     },
