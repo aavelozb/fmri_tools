@@ -1,5 +1,5 @@
 import unittest
-from fmri_tools.filters import PreprocessVol
+from fmri_tools.preprocessing.filters import PreprocessVol
 
 
 if __name__ == '__main__':
